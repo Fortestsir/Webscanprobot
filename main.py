@@ -6,7 +6,7 @@ import subprocess
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(BOT_TOKEN)
 
-FORCE_JOIN_CHANNEL = "@upsc_coree" "@uchitra_security"
+FORCE_JOIN_CHANNEL = "@upsc_coree"
 OWNER_USERNAME = "@Rat_Reaper"
 
 @bot.message_handler(commands=["start"])
