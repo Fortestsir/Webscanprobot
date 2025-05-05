@@ -3,8 +3,10 @@ import subprocess
 import sqlite3
 import os
 
-BOT_TOKEN = "7655006894:AAFynoptxT_nT4gmtLwI7dnmJ-s6cU-tFjY"
-bot = telebot.TeleBot(BOT_TOKEN)
+import telebot
+
+TOKEN = "7655006894:AAFynoptxT_nT4gmtLwI7dnmJ-s6cU-tFjY"
+bot = telebot.TeleBot(TOKEN)
 CHANNEL_USERNAME = '@Uchitra_sec'  # Force join channel
 OWNER_ID = 7655006894  # Replace with your Telegram user ID
 
